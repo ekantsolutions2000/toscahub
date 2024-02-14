@@ -1,0 +1,120 @@
+.warning-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#thank-you-modal {
+  position: absolute;
+  width: 35%;
+  min-width: 376px;
+  top: 80px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+  /* border-radius: 10px; */
+  /*box-shadow: 10px 10px 8px #888888;*/
+  padding: 20px 50px 5px;
+  z-index: 3;
+}
+
+#thank-you-modal .warning-close {
+  position: absolute;
+  display: block;
+  width: 39px;
+  height: 39px;
+  top: -16px;
+  right: -16px;
+  border-radius: 20px;
+  background-color: white;
+  color: rgb(246, 130, 32);
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#thank-you-modal .warning-close:hover {
+  cursor: pointer;
+  color: rgb(65, 64, 66);
+}
+
+#thank-you-modal .warning-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+#thank-you-modal .warning-header img,
+#thank-you-modal .warning-header h1 {
+  font-size: 44px;
+  color: rgb(65, 65, 66);
+  padding: 0;
+  margin: 0;
+}
+
+#thank-you-modal .warning-header img {
+  width: 100px;
+}
+
+#thank-you-modal .warning-header h1 {
+  margin-left: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+#thank-you-modal .header-btn a.btn,
+#thank-you-modal .header-btn input.btn {
+  border-radius: 4px;
+  background-color: #7ed4f7;
+  color: #414042;
+  margin-top: 10px;
+  font-weight: 100;
+  padding: 8px 16px;
+}
+
+#thank-you-modal .button-main {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#thank-you-modal .secondary-btn a.btn {
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #414042;
+  border-color: black;
+  margin-top: 10px;
+  font-weight: 100;
+  padding: 8px 16px;
+}
+
+#thank-you-modal .button-secondary {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#invoicing-page #thank-you-modal {
+  padding: 20px 36px 40px;
+}
+
+#invoicing-page #thank-you-modal .thank-you-close {
+  color: #ec710a;
+  font-weight: bolder;
+  font-size: 26px;
+  clear: both;
+  text-align: right;
+}
+
+#invoicing-page #thank-you-modal .thank-you-close:hover {
+  cursor: pointer;
+}
+
+#invoicing-page #thank-you-modal .warning-header {
+  display: block;
+  font-size: 28px;
+  text-align: left;
+  color: #414042;
+}

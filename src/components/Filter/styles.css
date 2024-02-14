@@ -1,0 +1,43 @@
+#rightFilterPanel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  height: 100%;
+  width: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  box-shadow: -5px 0px 25px 0px rgba(0, 0, 0, 0.1);
+}
+
+#filterContainer {
+  padding: 132px 40px 0px 40px;
+}
+
+#filterContainer form {
+  margin-top: 2.5rem;
+}
+
+#filterContainer h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#filterContainer label {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.input-text input {
+  width: 100%;
+}
+
+.filter-bottom {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}

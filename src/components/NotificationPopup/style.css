@@ -1,0 +1,19 @@
+#close-button-modal .glyphicon-remove {
+  color: black;
+  font-size: 20px;
+}
+
+#close-button-modal .glyphicon-remove:hover {
+  cursor: pointer;
+}
+
+.notification-modal-top {
+  display: flex;
+  flex-flow: row;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

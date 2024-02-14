@@ -1,0 +1,202 @@
+.info-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#message-popup {
+  position: absolute;
+  width: 550px;
+  max-width: 600px;
+  height: fit-content;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+  z-index: 3;
+  box-shadow: 0px 0px 17px rgb(0 0 0 / 11%);
+  border-radius: 16px;
+}
+
+#message-popup-top {
+  display: flex;
+  flex-flow: column;
+  max-width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 1rem;
+}
+
+#message-popup-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#message-popup-header h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.message-popup-bottom {
+  max-width: 100%;
+  /* padding: 1rem; */
+  padding: 50px 50px 40px 50px;
+}
+
+.message-popup-bottom a :hover {
+  color: #dc3545 !important;
+}
+
+#cu-close-button {
+  height: 25px;
+  position: absolute;
+  right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+#cu-close-button .glyphicon-remove {
+  color: white;
+  font-size: 20px;
+}
+
+#cu-close-button .glyphicon-remove:hover {
+  cursor: pointer;
+}
+
+#additionalOrgRoles {
+  border-radius: 1rem;
+  background-color: #f3fbfe;
+  padding: 1rem;
+}
+
+.cu-input-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cu-footer {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: right;
+}
+
+#message-popup label {
+  font-size: 12px;
+  color: #999999;
+}
+
+#additionalOrgRoles h5 {
+  font-size: 12px;
+  color: #ec710a;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+#cu-add-additional-org {
+  display: flex;
+  justify-content: right;
+}
+
+#cu-add-additional-org span:hover {
+  cursor: pointer;
+}
+
+#organization-roles-list {
+  margin-bottom: 0.5rem;
+}
+
+#organization-roles-list table {
+  width: 100%;
+}
+
+.cu-col-org {
+  width: 55%;
+  padding: 1px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.cu-col-role {
+  width: 40%;
+  padding: 1px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.cu-col-btn {
+  width: 5%;
+  font-size: 12px;
+  font-weight: 300;
+  color: #ec710a;
+}
+
+.cu-col-btn:hover {
+  cursor: pointer;
+}
+
+#organization-roles-list div {
+  max-height: 70px;
+  overflow: auto;
+}
+
+#cu-active-status {
+  display: flex;
+  justify-content: right;
+}
+
+.field-sep {
+  margin-bottom: 26px;
+}
+
+.field-title {
+  height: 20px;
+  left: 500.36px;
+  top: 327px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px !important;
+  line-height: 19px;
+  color: #999999;
+  text-transform: uppercase;
+}
+
+.field-text {
+  box-sizing: border-box;
+  max-width: 100% !important;
+  height: 57.06px;
+  left: 500px;
+  top: 356.33px;
+  background: #fcfcfc;
+  border: 0.5px solid #cccccc !important;
+  border-radius: 5px;
+  margin-right: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.danger {
+  background-color: #dc3545 !important;
+}
+.info {
+  background-color: #0dcaf0 !important;
+}
+.tosca-orenge {
+  background-color: #ec710a !important;
+}

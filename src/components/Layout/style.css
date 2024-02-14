@@ -1,0 +1,76 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* min-height: 100%;
+  position: relative; */
+}
+.main-container .container {
+  flex: 1;
+  /* width: 100%; */
+}
+
+@media screen and (max-width: 768px) {
+  .main-container .container {
+    width: 100%;
+  }
+}
+
+.heading h2 {
+  /*  position: absolute;
+  top: 106px; */
+  left: 47px;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.009em;
+  color: #16161e;
+}
+
+/* .currentAccount {
+  position: absolute;
+  top: 183px;
+  left: 48px;
+  margin-top: 58px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 175%;
+  color: #495a62;
+}
+ */
+/* .calMaine {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 175%;
+  letter-spacing: 0.02em;
+  color: #ec710a;
+} */
+
+/* .SwitchAccount {
+  position: absolute;
+  top: 264px;
+  left: 48px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 175%;
+  letter-spacing: 0.02em;
+  color: #495a62;
+} */
+
+.switch-account-form {
+  margin-top: 1.5rem !important;
+}
+
+.css-bgvzuu-indicatorSeparator {
+  display: none;
+}
+
+.react-select [class*="-indicatorSeparator"] {
+  display: none;
+}

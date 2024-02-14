@@ -1,0 +1,65 @@
+#invoicing-page #atc-statement-link {
+  width: 100%;
+  /*display: block;*/
+  margin-bottom: 10px;
+}
+
+#invoicing-page .header-info .atc-link {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#invoicing-page .header-info .atc-link .info {
+  width: 20px;
+  height: 20px;
+  transform: rotate(180deg);
+  margin-right: 5px;
+}
+
+#invoicing-page .header-info .atc-link .atc-logo {
+  width: 84px;
+}
+
+#invoicing-page .err-msg,
+#invoicing-page .err-msg a {
+  color: red;
+  font-style: italic;
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+#invoicing-page .header-info .atc-link .atc-logo-link:hover {
+  border: 2px solid #7ed4f7;
+}
+
+#invoicing-page .header-info .atc-link .atc-logo-link {
+  padding: 5px;
+  margin: 5px;
+  margin-left: 8px;
+  border: 2px solid transparent;
+  transition: all 200ms linear;
+}
+
+@media only screen and (min-width: 260px) and (max-width: 480px) {
+  #invoicing-page .header-info .atc-link .donwload-link {
+    width: 90%;
+  }
+  #invoicing-page .header-info .atc-link .info {
+    width: 5%;
+  }
+  #invoicing-page .header-info h3 {
+    font-size: 24px;
+  }
+  #invoicing-page .header-info .atc-link .atc-logo {
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  #invoicing-page .header-info h3 {
+    font-size: 32px;
+    margin-bottom: 0px;
+  }
+}

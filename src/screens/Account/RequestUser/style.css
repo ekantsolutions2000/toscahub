@@ -1,0 +1,347 @@
+/* Request User styles */
+.ru-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.ru-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.ru-title h3 {
+  height: 50px;
+  font-size: 36px;
+  line-height: 1.25;
+  color: #414042;
+}
+
+.ru-title p {
+  height: 22px;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.ru-content {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ruc-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  margin-bottom: 32px;
+}
+
+.ru-content label,
+.ru-content .message,
+.notifications .content {
+  font-weight: 300;
+}
+
+.ruc-header .left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.ruc-header .left .user-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ruc-header .left .user-info label {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.15;
+  color: #6e6f71;
+  text-transform: uppercase;
+}
+
+.ruc-header .left .user-info input {
+  border-color: #7ed4f7;
+  border-radius: 4px;
+}
+
+.ruc-header .left .user-info .title h2 {
+  font-size: 24px;
+  line-height: 1.25;
+  color: #414042;
+}
+
+.ruc-header .left .user-info .content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.ruc-header .left .user-info .content .left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 48px;
+}
+
+.ruc-header .left .user-info .content .right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 48px;
+}
+
+.ruc-header .left .loc-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ruc-header .left .loc-info label {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.15;
+  color: #6e6f71;
+  text-transform: uppercase;
+}
+
+.ruc-header .left .loc-info input {
+  border-color: #7ed4f7;
+  border-radius: 4px;
+}
+
+.ruc-header .left .loc-info .title {
+  margin-bottom: 16px;
+}
+
+.ruc-header .left .loc-info .title h2 {
+  font-size: 24px;
+  line-height: 1.25;
+  color: #414042;
+  margin-bottom: 0px;
+}
+
+.ruc-header .left .loc-info .title .message {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.15;
+  color: #6e6f71;
+  text-transform: uppercase;
+}
+
+.ruc-header .left .loc-info .content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.ruc-header .left .loc-info .content .left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 48px;
+}
+
+.ruc-header .left .loc-info .content .right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 48px;
+}
+
+.ruc-header .right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.ruc-header .right .notifications {
+  display: flex;
+  flex-direction: column;
+}
+
+.ruc-header .right .notifications .title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.ruc-header .right .notifications .title .left {
+  width: 80%;
+}
+
+.ruc-header .right .notifications .title .left h2 {
+  font-size: 24px;
+  line-height: 1.25;
+  color: #414042;
+}
+
+.ruc-header .right .notifications .title .middle {
+  width: 10%;
+}
+
+.ruc-header .right .notifications .title .right {
+  width: 10%;
+}
+
+.ruc-header .right .notifications .content {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+}
+
+.ruc-header .right .notifications .content .item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-top: solid 1px #e5e6e7;
+  border-bottom: solid 1px #e5e6e7;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ruc-header .right .notifications .content .item .title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  cursor: pointer;
+}
+
+.ruc-header .right .notifications .content .item .title .left {
+  width: 80%;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #414042;
+}
+
+.ruc-header .right .notifications .content .item .title .middle {
+  width: 10%;
+}
+
+.ruc-header .right .notifications .content .item .title .right {
+  width: 10%;
+}
+
+.ruc-header .right .notifications .content .item .detail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-top: solid 1px #7ed4f7;
+  border-bottom: solid 1px #7ed4f7;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+
+.ruc-header .right .notifications .content .item .detail .row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 8px;
+}
+
+.ruc-header .right .notifications .content .item .detail .row .left {
+  width: 80%;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #414042;
+}
+
+.ruc-header .right .notifications .content .item .detail .row .middle {
+  width: 10%;
+}
+
+.ruc-header .right .notifications .content .item .detail .row .right {
+  width: 10%;
+}
+
+.ruc-header .right .notifications .footer {
+  margin-top: 16px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #414042;
+}
+
+.ruc-footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+}
+
+.ruc-footer .create-pass {
+  width: 100%;
+}
+
+.ruc-footer .create-pass .title h2 {
+  font-size: 24px;
+  line-height: 1.25;
+  color: #414042;
+}
+
+.ruc-footer .create-pass .content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ruc-footer .create-pass .content .password {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 16px;
+  border-bottom: solid 1px #6e6f71;
+}
+
+.ruc-footer .create-pass .content .password label {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.15;
+  color: #6e6f71;
+  text-transform: uppercase;
+}
+
+.ruc-footer .create-pass .content .password input {
+  border-color: #7ed4f7;
+  border-radius: 4px;
+}
+
+.ruc-footer .create-pass .content .submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+
+.ruc-footer .create-pass .content .submit .submit-btn {
+  border-color: transparent;
+  background-color: #ec710a;
+  width: 116px;
+  height: 48px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 20px;
+}

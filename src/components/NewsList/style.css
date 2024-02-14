@@ -1,0 +1,6 @@
+@media only screen and (min-width: 200px) and (max-width: 540px) {
+  #news-list {
+    font-size: 13px;
+    line-height: 22.75px;
+  }
+}

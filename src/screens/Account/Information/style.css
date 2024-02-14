@@ -1,0 +1,284 @@
+/* Location styles */
+#location {
+  background-color: #ffffff;
+  margin-bottom: 16px;
+}
+
+#location .loc-detail {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+#location .loc-detail .loc-header {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #414042;
+}
+
+#location .loc-detail .loc-info {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #414042;
+}
+
+/* Information styles */
+#info {
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#info .info-title {
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #414042;
+  padding-left: 0px;
+}
+
+#info .info-message {
+  padding: 16px;
+  margin-top: 16px;
+  background-color: #f3f3f3;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #414042;
+  font-weight: 300;
+}
+
+/* General Page Styles */
+#account-page .item-label {
+  font-size: 13px;
+  color: #6e6f71;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+#account-page .input-transparent-right {
+  /* font-weight: bold; */
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  text-align: right;
+  font-size: 16px;
+
+  /* moved from the index */
+  width: 300;
+  font-weight: normal;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+
+/* Section specific styles */
+#account-page .header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#account-page .header .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#account-page .header .title h3 {
+  font-size: 36px;
+  line-height: 1.25;
+  color: #414042;
+  margin-top: 0;
+}
+
+#account-page .header .details {
+  display: flex;
+  text-align: right;
+}
+
+#account-page .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* margin-top: 32px; */
+}
+
+#account-page .content .left {
+  width: 33%;
+  margin-right: 10px;
+  /* background-color: #ffffff; */
+}
+
+#account-page .content .right {
+  width: 66%;
+  background-color: #ffffff;
+}
+
+#account-page .content .item-label {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+#info .row {
+  font-weight: 300;
+  margin-top: 16px;
+  padding-left: 5px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+  #account-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    width: 100%;
+  }
+
+  #account-page .header .input-transparent-right {
+    width: 180px;
+    font-weight: normal;
+  }
+
+  #account-page .content .right {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 16px;
+    background-color: #ffffff;
+  }
+
+  #account-page .content-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+  }
+
+  #account-page .header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #f7f7f7;
+  }
+
+  #account-page .content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #account-page .content .left {
+    width: 100%;
+    font-size: 12px;
+    margin-right: 0px;
+    background-color: #f7f7f7;
+    padding-top: 16px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  #account-page .header .title h3 {
+    font-size: 24px;
+    padding-left: 6px;
+  }
+
+  #location .loc-detail {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #ffffff;
+  }
+
+  #location .loc-detail .loc-header {
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    /* color: #414042; */
+  }
+
+  #location .loc-detail .loc-info {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  #account-page .content .right .userInformation {
+    padding-top: 30px;
+    font-weight: 40;
+  }
+
+  #info .info-message {
+    padding: 10px;
+    margin-top: 6px;
+    background-color: #f3f3f3;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #414042;
+    font-weight: 300;
+  }
+
+  #info {
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-right: 16px;
+  }
+
+  #info .row {
+    font-weight: 300;
+    margin-top: 24px;
+    padding-left: 8px;
+  }
+
+  #account-page .header .details .details-row {
+    padding-right: 10px;
+  }
+
+  #account-page .header .details .details-row #user_name {
+    padding-bottom: 20px;
+  }
+
+  #account-page .header .details .details-row .item-label {
+    padding-top: 5px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  #account-page .header .title h3 {
+    font-size: 32px;
+    padding-left: 6px;
+  }
+
+  #account-page .header .details .details-row #user_name {
+    padding-bottom: 20px;
+  }
+
+  #account-page .header .details .details-row .item-label {
+    padding-top: 10px;
+  }
+}

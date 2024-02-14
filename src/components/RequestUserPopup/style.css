@@ -1,0 +1,239 @@
+.info-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#request-user {
+  position: absolute;
+  max-width: 717px;
+  height: fit-content;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+  z-index: 3;
+  box-shadow: 0px 0px 17px rgb(0 0 0 / 11%);
+  border-radius: 16px;
+}
+
+#request-user-top {
+  display: flex;
+  flex-flow: column;
+  max-width: 100%;
+  background-color: #ff8b2a;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 1rem;
+}
+
+#request-user-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#request-user-header h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.request-user-bottom {
+  max-width: 100%;
+  /* padding: 1rem; */
+  padding: 50px 50px 40px 50px;
+}
+
+#cu-close-button {
+  height: 25px;
+  position: absolute;
+  right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+#cu-close-button .glyphicon-remove {
+  color: white;
+  font-size: 20px;
+}
+
+#cu-close-button .glyphicon-remove:hover {
+  cursor: pointer;
+}
+
+#additionalOrgRoles {
+  border-radius: 1rem;
+  background-color: #f3fbfe;
+  padding: 1rem;
+}
+
+.cu-input-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cu-footer {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: right;
+}
+
+#request-user label {
+  font-size: 12px;
+  color: #999999;
+}
+
+#additionalOrgRoles h5 {
+  font-size: 12px;
+  color: #ec710a;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+#cu-add-additional-org {
+  display: flex;
+  justify-content: right;
+}
+
+#cu-add-additional-org span:hover {
+  cursor: pointer;
+}
+
+#organization-roles-list {
+  margin-bottom: 0.5rem;
+}
+
+#organization-roles-list table {
+  width: 100%;
+}
+
+.cu-col-org {
+  width: 55%;
+  padding: 1px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.cu-col-role {
+  width: 40%;
+  padding: 1px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.cu-col-btn {
+  width: 5%;
+  font-size: 12px;
+  font-weight: 300;
+  color: #ec710a;
+}
+
+.cu-col-btn:hover {
+  cursor: pointer;
+}
+
+#organization-roles-list div {
+  max-height: 70px;
+  overflow: auto;
+}
+
+#cu-active-status {
+  display: flex;
+  justify-content: right;
+}
+
+.field-sep {
+  margin-bottom: 26px;
+}
+
+.field-title {
+  height: 20px;
+  left: 500.36px;
+  top: 327px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px !important;
+  line-height: 19px;
+  color: #999999;
+  text-transform: uppercase;
+}
+
+.field-text {
+  box-sizing: border-box;
+  max-width: 100% !important;
+  height: 57.06px;
+  left: 500px;
+  top: 356.33px;
+  background: #fcfcfc;
+  border: 0.5px solid #cccccc !important;
+  border-radius: 5px;
+  margin-right: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+@media only screen and (max-width: 1024px) {
+  #request-user {
+    width: 85%;
+  }
+
+  #request-user .request-user-bottom {
+    padding: 25px 20px 25px 20px;
+  }
+
+  #request-user-header h2 {
+    font-size: 18px;
+  }
+
+  #request-user .field-title {
+    font-size: 12px !important;
+  }
+
+  #request-user .field-text {
+    font-size: 13px !important;
+    height: 38px !important;
+  }
+
+  #request-user .modal-footer-cancel-btn,
+  #request-user .modal-footer-submin-btn {
+    font-size: 14px !important;
+  }
+
+  #request-user .modal-footer-cancel-btn {
+    margin-left: 0;
+    margin-right: 5px;
+  }
+
+  #request-user .modal-footer-submin-btn {
+    margin-left: 5px;
+  }
+
+  #request-user-header h2 {
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #request-user {
+    width: 85%;
+  }
+
+  #request-user .request-user-bottom {
+    padding: 25px 20px 25px 20px;
+  }
+}

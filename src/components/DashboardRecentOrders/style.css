@@ -1,0 +1,18 @@
+.dashboard-recent-orders .header-item,
+.row-item {
+  width: 11%;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard-recent-orders .header-item.extra-width,
+.row-item.extra-width {
+  width: 16%;
+}
+.dashboard-recent-orders .status-icon-container {
+  width: 5%;
+}
+
+.dashboard-recent-orders .status-description {
+  padding-left: 8px;
+  padding-right: 8px;
+}

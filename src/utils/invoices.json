@@ -1,0 +1,28 @@
+[
+  {
+    "Invoice": "AB-12345",
+    "InvDate": "2018/11/14",
+    "DueDate": "2018/12/31",
+    "BOL": "BOL-12345",
+    "CustomerPONo": "PO-12345",
+    "Aging": "1-9 Days",
+    "AgeAmount": 10000,
+    "InvAmount": 10000,
+    "OpenAmt": 5000,
+    "CurrentAmt": 5000,
+    "PastDue": 5000
+  },
+  {
+    "Invoice": "AB-54321",
+    "InvDate": "2018/10/14",
+    "DueDate": "2018/11/30",
+    "BOL": "BOL-54321",
+    "CustomerPONo": "PO-54321",
+    "Aging": "10-30 Days",
+    "AgeAmount": 20000,
+    "InvAmount": 20000,
+    "OpenAmt": 10000,
+    "CurrentAmt": 10000,
+    "PastDue": 10000
+  }
+]

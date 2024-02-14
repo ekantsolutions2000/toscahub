@@ -1,0 +1,372 @@
+.flx-space-between {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px 0px 40px 0px;
+}
+
+.flx-float-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.flx-float-left h3 {
+  margin: 0 0;
+}
+
+.flx-float-left button {
+  margin-left: 10px;
+}
+
+.flx-float-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.flx-float-right img {
+  width: 35px;
+  margin-left: 5px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.select-wrapper select {
+  width: 100px;
+  height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-new-user {
+  margin: 5;
+  width: 110;
+  height: 38;
+  border-radius: 4;
+  border: "none";
+  font-size: 14;
+  font-weight: 300;
+  color: "white";
+}
+
+.table-wrapper {
+  padding: 20px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: -5px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: white;
+  background-color: #81d3f5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.profile-pic-icon h5 {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.name-component {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.active-status-trait {
+  border: 1px solid #81d3f5;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inactive-status-trait {
+  border: 1px solid #f8aa68;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-user {
+  height: 20px;
+}
+
+.details-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.user-details {
+  height: 20px;
+}
+
+#user-management-page div.pagination-comp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#user-management-page div.pagination-comp .react-select {
+  min-width: 80px;
+}
+
+#user-management-page .active-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#user-management-page .active-page label {
+  font-size: 14px;
+  font-weight: 300;
+  color: #454d59;
+  margin-right: 1rem;
+}
+
+/* error popup */
+.info-overlay {
+  /* z-index: 1 !important; */
+}
+
+.home-nav_btn {
+  background-color: #ff8b2a !important;
+  border: transparent !important;
+  color: white !important;
+}
+
+.modal-footer {
+  border-top: none !important;
+}
+
+.modal-footer-cancel-btn {
+  width: 153px;
+  height: 46px;
+  right: 678px;
+  bottom: 241px;
+  background: #cbcaca;
+  border-radius: 7.86806px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 30px;
+}
+
+.modal-footer-cancel-btn:hover {
+  background-color: #a7a5a5;
+  color: #fff;
+}
+
+.modal-footer-cancel-btn:active {
+  background-color: #cdcbcb;
+}
+
+.modal-footer-cancel-btn:focus {
+  border: none;
+}
+
+.modal-footer-submin-btn {
+  width: 153px;
+  height: 46px;
+  right: 495px;
+  bottom: 241px;
+  background: #ff8b2a;
+  border-radius: 7.86806px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.modal-footer-submin-btn:hover {
+  background-color: #e66700;
+}
+
+.modal-footer-submin-btn:active {
+  background-color: #ff9d4d !important;
+}
+
+.modal-footer-submin-btn:focus {
+  background-color: #ff8b2a !important;
+}
+
+.field-sep {
+  margin-bottom: 26px;
+}
+
+.field-title {
+  height: 20px;
+  left: 500.36px;
+  top: 327px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  color: #999999;
+  text-transform: uppercase;
+}
+
+.field-text {
+  box-sizing: border-box;
+  max-width: 282.47px;
+  height: 57.06px;
+  left: 500px;
+  top: 356.33px;
+  background: #fcfcfc;
+  border: 0.5px solid #cccccc !important;
+  border-radius: 5px;
+  margin-right: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.filtter-wrapper {
+  margin: 5px 20% 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.filtter-wrapper .letter-key {
+  cursor: pointer;
+  margin: 0px 5px;
+  width: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.filtter-wrapper .default-key:hover,
+.filtter-wrapper .letter-key:hover {
+  color: #ec710a;
+}
+
+.active-key {
+  color: #ec710a;
+  text-decoration: underline;
+}
+
+#createOrRequestBtn {
+  margin-left: 20px;
+  width: 190px;
+  height: 35px;
+  border: 1px solid #ec710a;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ec710a;
+  background-color: #f9f9f9;
+}
+
+@media only screen and (max-width: 768px) {
+  .flx-float-left h3 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  .profile-pic-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .active-status-trait {
+    padding: 5px;
+  }
+
+  #user-management-page .flx-float-left {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #createOrRequestBtn {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 732px) {
+  .user-table > th,
+  .user-table > td {
+    min-width: 200px;
+  }
+
+  .table-content-wrapper {
+    overflow-x: scroll;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .flx-float-left h3 {
+    font-size: 24px;
+  }
+
+  .flx-float-left,
+  .flx-space-between {
+    flex-direction: column;
+  }
+
+  .flx-float-left {
+    align-items: flex-start;
+  }
+
+  .flx-float-right {
+    justify-content: space-between;
+  }
+
+  #createOrRequestBtn {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #createUserButtonWrapper {
+    width: 100%;
+  }
+
+  .filtter-wrapper .letter-key {
+    font-size: 12px;
+  }
+
+  #user-management-page div.pagination-comp {
+    margin-top: 15px;
+  }
+
+  #user-management-page .pagination {
+    z-index: 0;
+  }
+
+  #user-management-page .active-page label {
+    display: none;
+  }
+}

@@ -1,0 +1,161 @@
+/* Customer Service styles */
+.cs-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.cs-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.cs-title h3 {
+  margin-top: 0;
+  font-size: 36px;
+  line-height: 1.25;
+  color: #414042;
+}
+
+.cs-title p {
+  height: 22px;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.cs-content {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.cs-content .cs-tile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.cs-content img {
+  width: 100px;
+  height: 100px;
+}
+
+.cs-content .left {
+  width: 50%;
+  padding-right: 16px;
+  max-width: 450px;
+}
+
+.cs-content .left .left-top {
+  background-color: #ffffff;
+  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.wording {
+  float: right;
+  width: 80%;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #414042;
+  margin-top: 7%;
+}
+
+.wording div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wording img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.cs-content .left .left-bottom {
+  background-color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.cs-content .right {
+  width: 50%;
+  max-width: 450px;
+}
+
+.cs-content .right .right-top {
+  background-color: #ffffff;
+  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.cs-content .right .right-bottom {
+  background-color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+@media only screen and (max-width: 769px) {
+  .cs-content .right .right-top {
+    background-color: #ffffff;
+    margin-bottom: 26px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+  .cs-title h3 {
+    font-size: 32px;
+  }
+
+  .cs-content .left {
+    padding-right: 24px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .cs-title h3 {
+    font-size: 24px;
+  }
+
+  .cs-content {
+    padding-bottom: 16px;
+    border-bottom: solid 1px #6e6f71;
+    display: block;
+    width: 100%;
+  }
+
+  .cs-content .left {
+    width: 100%;
+    padding-right: 0px;
+  }
+
+  .cs-content .right {
+    width: 100%;
+  }
+
+  .cs-content .left .left-bottom {
+    margin-bottom: 24px;
+  }
+}

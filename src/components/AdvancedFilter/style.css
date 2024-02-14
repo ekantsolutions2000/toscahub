@@ -1,0 +1,433 @@
+.adv-filter form label,
+.adv-filter form p {
+  font-weight: 300;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.adv-filter form .form-group > input {
+  border-radius: 5px;
+  height: 36px;
+}
+
+.adv-filter form .form-group > input[type="date"] {
+  border: 1px solid #7ed4f7;
+  width: 100%;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.form-group .input-width {
+  width: 100%;
+}
+
+#orderQuantity {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-form {
+  background-color: white;
+  padding: 32px 16px;
+}
+
+.content-form .form-group {
+  width: 100%;
+}
+
+.content-form > .content {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+
+.left-col {
+  order: 1;
+  margin: 5px;
+  width: 31.33% !important;
+}
+
+.center-col {
+  order: 2;
+  margin: 5px;
+  width: 31.33% !important;
+}
+
+.right-col {
+  order: 3;
+  margin: 0px 5px;
+  width: 31.33% !important;
+}
+
+.filter-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 31%;
+}
+
+#invoiceDateRange {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 5px;
+}
+
+#invoiceRange {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 5px;
+}
+
+.inv-filter-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#invoiceDateRange #inv-dateMin {
+  width: 43%;
+}
+
+#invoiceDateRange #inv-dateMax {
+  width: 43%;
+}
+
+#invoiceRange #inv-dateMin2 {
+  width: 43%;
+}
+
+#invoiceRange #inv-dateMax2 {
+  width: 43%;
+}
+
+.filter-btn {
+  margin: 5px;
+  width: 127px;
+  height: 40px;
+  border-radius: 4px;
+  background-image: none;
+  background-color: #7ed4f7;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.order-date-range {
+  display: flex;
+  margin-top: 5px;
+}
+
+.connect-text {
+  line-height: 40px;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: 400;
+}
+
+.fitler-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.adv-filter-header > .filters-heading {
+  font-size: 36px;
+  font-weight: normal;
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+
+.adv-filter-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 40px 0;
+}
+
+.left-col,
+.collection-left-col {
+  order: 1;
+  margin: 5px;
+  width: 31.33% !important;
+}
+
+.collection-left-col {
+  margin: 5px 7px 5px 5px;
+}
+
+.center-col,
+.collection-center-col {
+  order: 2;
+  margin: 5px;
+  width: 31.33% !important;
+}
+
+.collection-center-col {
+  margin: 5px 5px 5px 7px;
+}
+
+.right-col,
+.collection-right-col {
+  order: 3;
+  margin: 0px 5px;
+  width: 31.33% !important;
+}
+
+.collection-right-col {
+  margin: 7px 5px 5px 7px;
+}
+
+.rdate-picker {
+  border: 1px solid #7ed4f7 !important;
+  height: inherit !important;
+  line-height: inherit !important;
+  padding: 5px 7px !important;
+  font-size: inherit !important;
+  border-radius: 3px !important;
+  font-weight: normal !important;
+  outline: none !important;
+}
+
+@media only screen and (max-width: 1230px) {
+  .content-form > .content {
+    flex-flow: row wrap;
+  }
+
+  .left-col {
+    order: 1;
+    flex: 0.5;
+    margin: 5px 20px 5px 5px;
+  }
+
+  .center-col {
+    order: 2;
+    flex: 0.5;
+    margin: 5px 5px 5px 20px;
+  }
+
+  .right-col {
+    order: 3;
+    flex: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px;
+  }
+
+  .right-col-1 {
+    order: 1;
+    flex: 0.5;
+    margin: 5px 20px 5px 5px;
+  }
+
+  .right-col-2 {
+    order: 2;
+    flex: 0.5;
+    margin: 5px 5px 5px 20px;
+  }
+
+  .right-col-3 {
+    order: 3;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .right-col-3-child {
+    flex: 0.5;
+    margin: 5px 5px 5px 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .adv-filter-header {
+    margin: 10px 0;
+  }
+
+  .collection-left-col {
+    width: 46% !important;
+  }
+
+  .collection-center-col {
+    width: 46% !important;
+  }
+
+  .collection-right-col {
+    width: 46% !important;
+  }
+
+  .collection-right-col {
+    margin: 0px 5px;
+  }
+
+  #invoiceDateRange #inv-dateMin {
+    width: 43%;
+  }
+
+  #invoiceDateRange #inv-dateMax {
+    width: 43%;
+  }
+
+  #invoiceRange #inv-dateMin2 {
+    width: 43%;
+  }
+
+  #invoiceRange #inv-dateMax2 {
+    width: 43%;
+  }
+
+  .inv-filter-row {
+    flex-flow: row wrap;
+  }
+
+  .adv-filter-header .filters-heading {
+    font-size: 32px;
+  }
+
+  .filter-col {
+    width: 49%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .content-form > .content {
+    flex-flow: column;
+  }
+
+  .content-form .form-group {
+    margin-bottom: 15px;
+  }
+
+  .left-col {
+    order: 1;
+    flex: 1;
+    width: 100% !important;
+  }
+
+  .center-col {
+    order: 2;
+    flex: 1;
+    width: 100% !important;
+  }
+
+  .right-col {
+    order: 3;
+    flex: 1;
+    width: 100% !important;
+  }
+
+  .right-col {
+    order: 3;
+    flex: 100%;
+    display: flex;
+    flex-flow: column;
+    margin: 0px;
+  }
+
+  .right-col-3-child {
+    flex: 1;
+    margin: 5px;
+  }
+
+  .right-col-1 {
+    margin: 0px;
+  }
+
+  .right-col-2 {
+    margin: 0px 0px 15px 0px;
+  }
+
+  .right-col-3-child,
+  .left-col,
+  .center-col,
+  .right-col {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .fitler-row {
+    justify-content: space-between;
+  }
+
+  .collection-left-col {
+    width: 100% !important;
+  }
+
+  .collection-center-col {
+    width: 100% !important;
+  }
+
+  .collection-right-col {
+    width: 100% !important;
+  }
+
+  #invoiceDateRange #inv-dateMin {
+    margin-top: 12px;
+    width: 100%;
+  }
+
+  #invoiceDateRange #inv-dateMax {
+    width: 100%;
+  }
+
+  .inv-filter-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filter-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  #invoiceRange #inv-dateMin2 {
+    width: 45%;
+  }
+
+  #invoiceRange #inv-dateMax2 {
+    width: 45%;
+  }
+
+  .content-form .form-group {
+    margin-bottom: 8px;
+  }
+
+  #invoiceRange {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 6px;
+  }
+
+  #invoiceDateRange {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 0px;
+  }
+  .fitler-row {
+    justify-content: space-between;
+  }
+
+  .adv-filter-header .filters-heading {
+    font-size: 24px;
+  }
+}

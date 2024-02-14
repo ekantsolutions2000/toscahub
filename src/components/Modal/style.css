@@ -1,0 +1,52 @@
+.orange-bg {
+  background-color: #ff8b2a;
+  color: #fff;
+}
+
+.model-header {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+
+#cu-close-button-2 {
+  height: 25px;
+  position: unset !important;
+  /* right: 15px; */
+  display: flex;
+  align-items: center;
+}
+
+#cu-close-button-2 .glyphicon-remove {
+  color: white;
+  font-size: 20px;
+}
+
+#cu-close-button-2 .glyphicon-remove:hover {
+  cursor: pointer;
+}
+
+.close-btn {
+  color: #bfbfbf !important;
+  cursor: pointer !important;
+}
+
+#simpal-close-btn {
+  margin-top: 0;
+}
+
+#simpal-close-btn .glyphicon-remove {
+  color: white !important;
+  font-size: 20px;
+  position: unset;
+}
+
+#simpal-close-btn .glyphicon-remove:hover {
+  cursor: pointer;
+}

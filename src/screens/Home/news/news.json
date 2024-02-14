@@ -1,0 +1,67 @@
+[
+  {
+    "headline": "Tosca Launches First ESG Report",
+    "link": "https://www.toscaltd.com/tosca-launches-first-annual-environmental-social-and-governance-esg-report-report/",
+    "isActive" : true
+  },
+  {
+    "headline": "Tosca’s partnership with Avery Dennison will save up to 800 tons of CO2 emissions",
+    "link": "https://www.toscaltd.com/toscas-new-partnership-with-avery-dennison-to-save-up-to-800-tons-of-co2-emissions-from-avery-dennisons-european-supply-chain-annually/",
+    "isActive" : true
+  },
+  {
+    "headline": "Have you seen our new brand video? Watch it here: (10) Why Tosca? - YouTube",
+    "link": "https://www.youtube.com/watch?v=DpSUkDliMjM&t=3s",
+    "isActive" : true
+  },
+  {
+    "headline": "RPCs reduce time and emissions for premium chicken supplier Fieldale Farms",
+    "link": "https://www.toscaltd.com/fieldale-farms/",
+    "isActive" : true
+  },
+  {
+    "headline": "The war in Ukraine and the subsequent European trade sanctions against Russia have affected nail supplies and created a shortage. Read about how plastic pallets can help here.",
+    "link": "https://www.toscaltd.com/nailing-supply-chain-issues-with-reusable-plastic-pallets/",
+    "isActive" : true
+  },
+  {
+    "headline": "Tosca Promotes Steve Arendsen to President – North America",
+    "link": "https://www.toscaltd.com/tosca-promotes-steve-arendsen-to-president-north-america",
+    "isActive" : false
+  },
+  {
+    "headline": "Tosca opens an automated washing centre in Dublin",
+    "link": "https://www.toscaltd.com/tosca-opens-automated-wash-cent",
+    "isActive" : false
+  },
+  {
+    "headline": "Tosca Awarded the EcoVadis Gold Medal for Sustainability",
+    "link": "https://www.toscaltd.com/tosca-awarded-the-ecovadis-gold-medal-for-sustainability-achieved-by-only-the-top-five-percent-of-applicants",
+    "isActive" : false
+  },
+  {
+    "headline": "Tosca Adds Smaller Crate Designed for Shellfish and Tray Pack Fish to its Seafood Portfolio",
+    "link": "https://www.toscaltd.com/tosca-adds-smaller-crate-designed-for-shellfish-and-tray-pack-fish-to-its-seafood-portfolio",
+    "isActive" : false
+  },
+  {
+    "headline": "Tosca Launches Comprehensive Supply Chain IoT Service - Asset IQ",
+    "link": "https://www.toscaltd.com/tosca-launches-comprehensive-supply-chain-iot-service-asset-iq",
+    "isActive" : false
+  },
+  {
+    "headline": "Tosca Digitizes Supply Chain with Help of Belgian Company Sensolus",
+    "link": "https://www.toscaltd.com/tosca-digitizes-supply-chain-with-help-of-belgian-company-sensolus/",
+    "isActive" : true
+  },
+  {
+    "headline": "Wegmans’ Seafood Team Pioneers Tosca’s RPCs to Reduce Unsustainable EPS Styrofoam",
+    "link": "https://www.toscaltd.com/wegmans-seafood-team-pioneers-toscas-rpcs-to-reduce-unsustainable-eps-styrofoam/",
+    "isActive" : true
+  },
+  {
+    "headline": "Tosca opens an automated washing centre in Dublin, doubling wash capacity per hour",
+    "link": "https://www.toscaltd.com/tosca-opens-automated-wash-cent/",
+    "isActive" : false
+  }  
+]

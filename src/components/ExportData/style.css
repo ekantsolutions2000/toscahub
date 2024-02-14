@@ -1,0 +1,71 @@
+#export-data__comp p,
+#export-data__comp input {
+  margin: 0;
+  padding: 0;
+}
+
+#export-data__comp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#export-data__comp div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 100px;
+  margin: 20px 15px;
+}
+
+#export-data__comp div p {
+  padding-right: 5px;
+  text-transform: uppercase;
+}
+
+#filtered-data-label {
+  margin-top: 2.5px !important;
+}
+
+#export-data__comp div p.ed-label,
+#export-data__comp div a.ex-label {
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: unset;
+  color: #414042;
+}
+
+#export-data__comp div p.ed-label::after {
+  content: ":";
+}
+
+#export-data__comp .export-cont img {
+  width: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  #export-data__comp div p.ed-label,
+  #export-data__comp div a.ex-label {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #export-data__comp div {
+    font-size: 12px;
+    margin: 5px 0px;
+  }
+
+  #export-data__comp .export-cont {
+    justify-content: center;
+    width: 80%;
+  }
+
+  #filtered-data-label {
+    margin-top: 3.3px !important;
+  }
+}

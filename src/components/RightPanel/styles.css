@@ -1,0 +1,13 @@
+.rightPanel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  height: 100%;
+  /* width: 0; */
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  box-shadow: -5px 0px 25px 0px rgba(0, 0, 0, 0.1);
+  transform: translateX(100%);
+}

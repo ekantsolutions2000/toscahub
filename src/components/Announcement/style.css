@@ -1,0 +1,10 @@
+.announcement-wrapper #ty-modal {
+  width: 95%;
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 375px) {
+  .text-align-left {
+    text-align: left !important;
+  }
+}

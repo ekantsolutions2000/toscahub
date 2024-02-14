@@ -1,0 +1,134 @@
+.switch-account {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #16161e;
+  letter-spacing: -0.009em;
+}
+
+.current-account {
+  position: absolute;
+  top: 205px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 175%;
+  letter-spacing: 0.02em;
+  color: #495a62;
+}
+
+.cal-maine {
+  position: absolute;
+  top: 223px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 175%;
+  letter-spacing: 0.02em;
+  color: #ec710a;
+}
+
+.switch-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  position: absolute;
+  /*  width: 133px; */
+  height: 44px;
+  left: 40px;
+  top: 406px;
+  background: #ff8b2b;
+  border-radius: 4px;
+  font-style: normal;
+  font-family: Roboto, sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.clear {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  position: absolute;
+  width: 128px;
+  height: 44px;
+  left: 196px;
+  top: 406px;
+  background: #afafaf;
+  border-radius: 4px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 16px;
+  line-height: 175%;
+  color: #ffffff;
+}
+
+.switch-ac {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 175%;
+  letter-spacing: 0.02em;
+  color: #495a62;
+}
+
+#filterOrganization {
+  top: 7px;
+  /* width: 232px; */
+}
+
+.rightPanel {
+  width: 349px;
+}
+
+.css-1szy77t-control {
+  border-color: #e0e0e0;
+}
+
+.css-5mz1tj-menu {
+  border-radius: 15px;
+}
+
+.react-select div[class^="css-"][class$="-menu"] {
+  /*  background-color: red !important; */
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+.react-select div[class^="css-"][class$="-menu"] div {
+  scrollbar-width: auto;
+  scrollbar-color: #949494 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+.react-select div[class^="css-"][class$="-menu"] div::-webkit-scrollbar {
+  width: 11px;
+}
+/*top and bottom arrows*/
+.react-select div[class^="css-"][class$="-menu"] div::-webkit-scrollbar-button {
+  width: 15px;
+  height: 15px;
+}
+.react-select div[class^="css-"][class$="-menu"] div::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.react-select div[class^="css-"][class$="-menu"] div::-webkit-scrollbar-thumb {
+  background-color: #949494;
+  border-radius: 20px;
+  border: 3px solid white;
+  /* border-right: 6px solid red; */
+}

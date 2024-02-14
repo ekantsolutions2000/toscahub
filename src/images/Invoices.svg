@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Tosca/Invoices</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0001 0.797 32.956 0.797 32.956 42 0.0001 42"></polygon>
+        <polygon id="path-3" points="0 42.4795 32.956 42.4795 32.956 1.0005 0 1.0005"></polygon>
+    </defs>
+    <g id="Icon/Tosca/Invoices" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(14.000000, 9.000000)">
+            <g id="Group-3" transform="translate(0.000000, 0.479500)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M31.4561,42 L1.5001,42 C0.6721,42 0.0001,41.328 0.0001,40.5 L0.0001,2.297 C0.0001,1.469 0.6721,0.797 1.5001,0.797 L20.8561,0.797 L20.8561,3.797 L3.0001,3.797 L3.0001,39 L29.9561,39 L29.9561,12.896 L32.9561,12.896 L32.9561,40.5 C32.9561,41.328 32.2841,42 31.4561,42" id="Fill-1" fill="#F4811F" mask="url(#mask-2)"></path>
+            </g>
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <g id="Clip-5"></g>
+            <polygon id="Fill-4" fill="#7FD2F5" mask="url(#mask-4)" points="6.454 17.2475 19.08 17.2475 19.08 14.2475 6.454 14.2475"></polygon>
+            <polygon id="Fill-6" fill="#7FD2F5" mask="url(#mask-4)" points="6.454 22.1625 19.08 22.1625 19.08 19.1625 6.454 19.1625"></polygon>
+            <polygon id="Fill-7" fill="#7FD2F5" mask="url(#mask-4)" points="6.454 26.8385 19.08 26.8385 19.08 23.8385 6.454 23.8385"></polygon>
+            <polygon id="Fill-8" fill="#7FD2F5" mask="url(#mask-4)" points="15.627 34.0015 26.086 34.0015 26.086 31.0015 15.627 31.0015"></polygon>
+            <polygon id="Fill-9" fill="#F4811F" mask="url(#mask-4)" points="22.31 17.2475 25.903 17.2475 25.903 14.2475 22.31 14.2475"></polygon>
+            <polygon id="Fill-10" fill="#F4811F" mask="url(#mask-4)" points="22.31 22.1625 25.903 22.1625 25.903 19.1625 22.31 19.1625"></polygon>
+            <polygon id="Fill-11" fill="#F4811F" mask="url(#mask-4)" points="22.31 26.8385 25.903 26.8385 25.903 23.8385 22.31 23.8385"></polygon>
+            <path d="M25.4668,8.4453 L27.7908,8.4453 L25.4668,6.1213 L25.4668,8.4453 Z M31.4118,11.4453 L23.9668,11.4453 C23.1388,11.4453 22.4668,10.7733 22.4668,9.9453 L22.4668,2.5003 C22.4668,1.8933 22.8318,1.3463 23.3928,1.1143 C23.9528,0.8823 24.5978,1.0103 25.0278,1.4393 L32.4728,8.8843 C32.9018,9.3133 33.0298,9.9593 32.7978,10.5193 C32.5658,11.0803 32.0188,11.4453 31.4118,11.4453 Z" id="Fill-12" fill="#7FD2F5" mask="url(#mask-4)"></path>
+        </g>
+    </g>
+</svg>

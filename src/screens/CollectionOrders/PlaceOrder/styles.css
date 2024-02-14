@@ -1,0 +1,23 @@
+.rpc-hover th,
+td {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.rpc-hover th {
+  border-bottom: 0.5px solid #cdcdcd;
+  font-weight: 500;
+}
+
+.th-topic {
+  max-width: 175px !important;
+}
+
+.summery-list-wrapper {
+  border-radius: 5px;
+  /* overflow: hidden; */
+}
+
+.tw-text-gray-700 {
+  color: rgb(0, 0, 0) !important;
+}

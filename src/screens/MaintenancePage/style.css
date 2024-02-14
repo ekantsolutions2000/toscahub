@@ -1,0 +1,132 @@
+/* .outline {
+  border: 1px solid black;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+#mp-body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#maintenance-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#mp-left {
+  flex: 55%;
+  align-items: center;
+}
+
+#mp-right {
+  flex: 45%;
+  text-align: center;
+  align-items: center;
+}
+
+#mp-left-top {
+  position: absolute;
+  top: 65px;
+  left: 65px;
+}
+
+#mp-left-middle {
+  margin-bottom: 10px;
+}
+
+#mp-left h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 4.5vw;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-left: 65px;
+  padding-bottom: 10px;
+}
+
+#mp-left h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.56vw;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin-left: 65px;
+  /* padding: 1rem; */
+}
+
+/* .new-login-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #939598;
+} */
+
+#mp-left-bottom a:link {
+  color: #ec710a;
+  text-decoration: none;
+}
+
+#mp-left-bottom a:hover {
+  color: #4287f5;
+}
+
+#mp-left-bottom a:visited {
+  color: #ec710a;
+  text-decoration: none;
+}
+
+.mp-top-left-gradient {
+  position: absolute;
+  width: 914px;
+  height: 914px;
+  left: -326px;
+  top: -332px;
+
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(126, 210, 246, 0.34) 0%,
+    rgba(245, 228, 255, 0) 84.9%
+  );
+  opacity: 0.5;
+}
+
+.mp-bottom-middle-gradient {
+  position: absolute;
+  left: 25.81%;
+  right: 21.88%;
+  top: 54.1%;
+  bottom: -36.04%;
+
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(126, 210, 246, 0.34) 0%,
+    rgba(245, 228, 255, 0) 84.9%
+  );
+  /* opacity: 0.5; */
+  opacity: 0.5;
+}
+
+.mp-bottom-right-gradient {
+  position: absolute;
+  width: 878px;
+  height: 878px;
+  left: 899px;
+  top: 401px;
+
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(236, 113, 10, 0.25) 0%,
+    rgba(245, 228, 255, 0) 100%
+  );
+  opacity: 0.49;
+}

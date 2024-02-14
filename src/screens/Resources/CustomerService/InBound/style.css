@@ -1,0 +1,26 @@
+/* Customer Service styles */
+.cs-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.cs-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+@media only screen and (max-width: 769px) {
+  .cs-title h3 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .cs-title h3 {
+    font-size: 24px;
+  }
+}

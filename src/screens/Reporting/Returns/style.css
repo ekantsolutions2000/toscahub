@@ -1,0 +1,147 @@
+/* Returns styles */
+.ret-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.ret-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.ret-title h3 {
+  margin-top: 0;
+  font-size: 36px;
+  line-height: 1.25;
+  color: #414042;
+}
+
+.ret-title p {
+  height: 22px;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.ret-content {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 75%;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.ret-content form {
+  width: 100%;
+}
+
+.ret-content .content {
+  padding-bottom: 16px;
+  border-bottom: solid 1px #6e6f71;
+  display: flex;
+  flex-direction: row;
+}
+
+.ret-content .content .left {
+  width: 100%;
+  padding-right: 48px;
+}
+
+.ret-content .content .left label {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.15;
+  color: #6e6f71;
+  text-transform: uppercase;
+}
+
+.ret-content .content .left textarea {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  resize: none;
+  padding-top: 8px;
+}
+
+.ret-content .content .left .react-select .css-vj8t7z {
+  border: solid 1px rgba(126, 212, 247, 1);
+}
+
+.ret-content .content .right {
+  width: 100%;
+}
+
+.ret-content .content .right label {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.15;
+  color: #6e6f71;
+  text-transform: uppercase;
+}
+
+.ret-content .content .right input {
+  border-color: #7ed4f7;
+  border-radius: 4px;
+}
+
+.ret-content .content .right textarea {
+  background-image: none;
+  border-color: #7ed4f7;
+  border-radius: 4px;
+  box-shadow: none;
+  resize: none;
+}
+
+.ret-content .footer .submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.ret-content .footer .submit .submit-btn {
+  border-color: transparent;
+  background-color: #ec710a;
+  width: 116px;
+  height: 48px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 820px) {
+  .ret-content {
+    width: 100%;
+  }
+
+  .ret-title h3 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .ret-content .content {
+    flex-direction: column;
+  }
+
+  .ret-content .content .left {
+    padding-right: 0;
+  }
+
+  .ret-title h3 {
+    font-size: 24px;
+  }
+}

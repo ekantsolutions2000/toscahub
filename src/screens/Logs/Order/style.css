@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px) {
+  #order-logs-header {
+    font-size: 30px;
+  }
+
+  #order-logs-description {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #order-logs-header {
+    font-size: 24px;
+  }
+}

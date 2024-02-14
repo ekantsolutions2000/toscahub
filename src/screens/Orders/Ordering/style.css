@@ -1,0 +1,93 @@
+#order-history-page .order-page-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+#order-history-page .order-page-header .header-btn a.btn {
+  border-radius: 4px;
+  background-color: #7ed4f7;
+  color: #414042;
+  font-weight: 100;
+  padding: 8px 16px;
+  width: auto !important;
+  margin-right: 5px;
+}
+
+#order-history-page .order-history-page-info {
+  font-size: 12px;
+}
+
+#order-history-page .buttons {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 820px) {
+  #order-history-page .order-page-header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: inherit;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  #order-history-page .header-btn {
+    width: 100%;
+    display: flex;
+  }
+
+  #order-history-page .buttons {
+    flex: 1;
+  }
+
+  #order-history-page .header-info h3 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #order-history-page .buttons {
+    font-size: 12px;
+  }
+
+  #order-history-page .order-page-header .header-btn a.btn {
+    width: 100% !important;
+  }
+
+  #order-history-page .header-info h3 {
+    font-size: 24px;
+  }
+
+  #order-history-page .header-btn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #apply-filter-options {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #modify-filter-options {
+    display: flex;
+    justify-content: center;
+  }
+
+  #export-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #order-history-page .buttons {
+    font-size: 9px;
+  }
+}

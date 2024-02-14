@@ -1,0 +1,72 @@
+#home-page .dashboard-nav-tiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+#home-page h1 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+#home-page .dashboard-info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#home-page .tosca-news,
+#home-page .tosca-containers {
+  border: solid transparent 1px;
+  background-color: #ffffff;
+  width: 100%;
+  /* margin: 8px; */
+  margin: 8px 0;
+  padding: 0px 20px;
+}
+#home-page .tosca-containers h4 {
+  margin-left: 10px;
+}
+#home-page .container-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+#home-page .container-images .cont-img {
+  width: 153px;
+  height: 80px;
+  background-size: cover;
+  margin: 10px 10px 10px 10px;
+  border: solid 1px #80d2f5;
+}
+
+#home-page h3 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+#home-page .tosca-containers p {
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  #home-page .dashboard-nav-tiles,
+  #home-page .dashboard-info-row {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 260px) and (max-width: 480px) {
+  #home-page .tosca-containers .container-images- .tw-h-32 {
+    width: 300px;
+  }
+}

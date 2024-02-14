@@ -1,0 +1,117 @@
+.container .ReactTable .rt-noData {
+  display: none;
+}
+
+.container .ReactTable .rt-resizable-header {
+  outline: none;
+}
+
+/* Calendar Dropdown Styles */
+
+.order-list .react-datepicker-wrapper,
+.order-list .react-datepicker__input-container {
+  display: block;
+  width: 100%;
+}
+
+.order-list .react-datepicker__input-container input {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.order-list .react-datepicker {
+  font-size: 1em;
+}
+.order-list .react-datepicker__header {
+  padding-top: 0.8em;
+}
+.order-list .react-datepicker__month {
+  margin: 0.4em 1em;
+}
+.order-list .react-datepicker__day-name,
+.order-list .react-datepicker__day {
+  width: 1.9em;
+  line-height: 1.9em;
+  margin: 0.166em;
+}
+.order-list .react-datepicker__current-month {
+  font-size: 1em;
+}
+.order-list .react-datepicker__navigation {
+  top: 1em;
+  line-height: 1.7em;
+  border: 0.45em solid transparent;
+}
+.order-list .react-datepicker__navigation--previous {
+  border-right-color: #ccc;
+  left: 1em;
+}
+.order-list .react-datepicker__navigation--next {
+  border-left-color: #ccc;
+  right: 1em;
+}
+/* End DatePicker Styles */
+
+.ReactModal__Content {
+  overflow: visible !important;
+}
+
+.ReactModalPortal .order-details-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ReactModalPortal .order-details-modal .order-details-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 100%;
+  margin: 10px 10px 20px 10px;
+}
+
+.ReactModalPortal .order-details-modal .order-details-data {
+  border-top: 1px inset rgba(65, 64, 66, 0.3);
+  padding-top: 20px;
+}
+
+.ReactModalPortal .order-details-modal .order-details-header h1 {
+  padding-left: 15px;
+  color: rgba(65, 64, 63, 1);
+}
+
+.ReactModalPortal .order-details-modal label {
+  min-width: 180px;
+}
+
+.ReactModalPortal .order-details-modal div.order-details-close {
+  display: block;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  background-image: radial-gradient(white 60%, transparent 40%);
+  border-radius: 20px;
+  color: rgba(246, 130, 32, 1);
+  cursor: pointer;
+}

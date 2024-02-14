@@ -1,0 +1,41 @@
+#page-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 150px;
+  background-color: #939598;
+  text-transform: uppercase;
+}
+
+#page-footer .link-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#page-footer .link-row a {
+  padding: 0 10px;
+  margin: 5px 10px;
+
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+#page-footer .link-row a:hover {
+  text-decoration: none;
+}
+
+#page-footer .copyright-row {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-display: "MuseoSansRounded";
+  font-weight: 300;
+}

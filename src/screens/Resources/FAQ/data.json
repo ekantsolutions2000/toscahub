@@ -1,0 +1,359 @@
+[
+  {
+    "TileOrder": 1,
+    "Active": true,
+    "Topic": "How to…",
+    "Question": "How can I add a new location?",
+    "Answer": "Please refer to this guide for step by instructions: <a target='_blank' href='{docUrl}/hub/docs/How%20to%20add%20a%20location.pdf'>How to add a location.pdf</a>"
+  },
+  {
+    "TileOrder": 1,
+    "Active": true,
+    "Topic": "How to…",
+    "Question": "How can I place a new order?",
+    "Answer": "Please refer to this guide for step by instructions: <a target='_blank' href='{docUrl}/hub/docs/How%20to%20Submit%20an%20Order.pdf'>How to Submit an Order.pdf</a>"
+  },
+  {
+    "TileOrder": 1,
+    "Active": true,
+    "Topic": "How to…",
+    "Question": "How can I download the user guide?",
+    "Answer": "Use this link to download the Hub User Guide: <a target='_blank' href='{docUrl}/hub/docs/Hub%20User%20Guide%20Release%205.0.pdf'>Download</a>"
+  },
+  {
+    "TileOrder": 1,
+    "Active": true,
+    "Topic": "How to…",
+    "Question": "What changed in release 3.0?",
+    "Answer": "In Release 3.0, Tosca delivers many of the features you asked for in our last customer survey for the Dashboard, Orders, Order History and Invoices. We have also made changes for a more consistent look & feel and improved speed and performance. <a target='_blank' href='{docUrl}/hub/docs/What%20Changed%20Hub%20Release%203.0.pdf'>Release Notes</a>"
+  },
+  {
+    "TileOrder": 1,
+    "Active": true,
+    "Topic": "How to…",
+    "Question": "Is there a user guide for the Transplace feature?",
+    "Answer": "Please refer to this guide for step by instructions: <a target='_blank' href='{docUrl}/hub/docs/How%20to%20Track%20a%20Shipment.pdf'>How to Track a Shipment</a>"
+  },
+  {
+    "TileOrder": 2,
+    "Active": true,
+    "Topic": "Order Management",
+    "Question": "What if I want to ship to another location that is not in the Ship To Location list?",
+    "Answer": "You can add a location to use a single time by clicking the + button.  Please refer to this guide for step by instructions: <a target='_blank' href='{docUrl}/hub/docs/How%20to%20add%20a%20location.pdf'>How to add a location.pdf</a>"
+  },
+  {
+    "TileOrder": 2,
+    "Active": false,
+    "Topic": "Order Management",
+    "Question": "What constitutes a truck load?",
+    "Answer": "This is the number of RPC items which will ,"
+  },
+  {
+    "TileOrder": 2,
+    "Active": true,
+    "Topic": "Order Management",
+    "Question": "Can I add multiple RPC sizes to one order?",
+    "Answer": "Yes. After you add the first item to the order, repeat the steps for each RPC size you want to order before you click the Submit button."
+  },
+  {
+    "TileOrder": 2,
+    "Active": true,
+    "Topic": "Order Management",
+    "Question": "Can I edit my orders after they are submitted?",
+    "Answer": "This feature is not yet available in the Hub. To edit an existing order, please contact your Customer Experience rep by emailing <a href='mailto:{defaultCSRMail}?subject={organization}'>{defaultCSRMail}</a>."
+  },
+  {
+    "TileOrder": 2,
+    "Active": true,
+    "Topic": "Order Management",
+    "Question": "Can I place multiple orders simultaneously?",
+    "Answer": "You can place multiple orders for a <span class='tw-font-bold'>single location</span>. After you add the first item to the order, repeat the steps for each RPC size you want to order before you click the Submit button. To place an order for another location, start a new order and select the location."
+  },
+  {
+    "TileOrder": 2,
+    "Active": true,
+    "Topic": "Order Management",
+    "Question": "Can I cancel my order?",
+    "Answer": "Yes, you can now cancel your order from the order history pop-up, if it is in Unplanned status and the requested ship to date is greater than 7 days out."
+  },
+  {
+    "TileOrder": 2,
+    "Active": false,
+    "Topic": "Order Management",
+    "Question": "How many recurring orders can I place?",
+    "Answer": "This feature is not available in the Hub. To submit recurring orders, use the Re-Order feature and create duplicate orders with new requested delivery dates."
+  },
+  {
+    "TileOrder": 2,
+    "Active": false,
+    "Topic": "Order Management",
+    "Question": "Can I edit recurring orders once placed?",
+    "Answer": "This feature is not yet available in the Hub. To edit an existing order, please contact your Customer Experience rep by emailing <a href='mailto:{defaultCSRMail}?subject={organization}'>{defaultCSRMail}</a>."
+  },
+  {
+    "TileOrder": 2,
+    "Active": true,
+    "Topic": "Order Management",
+    "Question": "My orders are not reflecting in the History Table.",
+    "Answer": "It may take 1-2 minutes for a new order to be processed. Once the order is processed, it will show up in the list. Click the Refresh button. If it does not appear, please make certain you have submitted the order and seen the confirmation message.  If the order is still not in the list, please contact your Customer Experience rep by emailing <a href='mailto:{defaultCSRMail}?subject={organization}'>{defaultCSRMail}</a>"
+  },
+  {
+    "TileOrder": 2,
+    "Active": true,
+    "Topic": "Order Management",
+    "Question": "How can I track the shipping status of my order?",
+    "Answer": "From the Dashboard or Order History, find our order, then look at the truck icon. If the icon is grey, it indicates that the order has not yet shipped. If the icon is orange and blue, it indicates the order has shipped and you can click the icon to open a popup view using Transplace."
+  },
+  {
+    "TileOrder": 2,
+    "Active": true,
+    "Topic": "Order Management",
+    "Question": "What is the truck icon?",
+    "Answer": "The Tosca Hub provides an interface to Transplace so that you can track an order and see the shipping status."
+  },
+  {
+    "TileOrder": 2,
+    "Active": true,
+    "Topic": "Order Management",
+    "Question": "Is there more information about Transplace?",
+    "Answer": "The Hub allows you to see a map of your shipment, the reference number and status of the order. Our partners at Transplace have many resources to assist you with understanding their other extensive offerings at this link: <a target='_blank' href='https://www.transplace.com/resources/'>www.transplace.com/resources</a>"
+  },
+  {
+    "TileOrder": 3,
+    "Active": true,
+    "Topic": "Support",
+    "Question": "How do I contact Customer Experience?",
+    "Answer": "There are Customer Experience contacts for each supply chain under Resources > Contact Customer Support"
+  },
+  {
+    "TileOrder": 3,
+    "Active": true,
+    "Topic": "Support",
+    "Question": "How do I find my Customer Experience rep’s email address?",
+    "Answer": "Click your Account menu at the top right of the screen. Your Customer Experience rep is listed with an email and phone number."
+  },
+  {
+    "TileOrder": 3,
+    "Active": true,
+    "Topic": "Support",
+    "Question": "How do I find my sales rep’s email address?",
+    "Answer": "Click your Account menu at the top right of the screen. Your sales rep is listed with an email and phone number."
+  },
+  {
+    "TileOrder": 3,
+    "Active": true,
+    "Topic": "Support",
+    "Question": "How do I provide feedback?",
+    "Answer": "Click the Resources drop down menu and select Feedback."
+  },
+  {
+    "TileOrder": 3,
+    "Active": true,
+    "Topic": "Support",
+    "Question": "Hub User Guide December 2022 Edition",
+    "Answer": "Click to download the user guide: <a target='_blank' href='{docUrl}/hub/docs/Hub%20User%20Guide%20Release%205.0.pdf'>Hub User Guide Release 5.0.pdf</a>"
+  },
+  {
+    "TileOrder": 4,
+    "Active": true,
+    "Topic": "Dashboard",
+    "Question": "Who should I contact if the data on tiles is incorrect?",
+    "Answer": "Please contact your Customer Experience rep by emailing <a href='mailto:{defaultCSRMail}?subject={organization}'>{defaultCSRMail}</a>"
+  },
+  {
+    "TileOrder": 4,
+    "Active": true,
+    "Topic": "Dashboard",
+    "Question": "My latest orders are not showing in My Recent Order History.",
+    "Answer": "It may take 1-2 minutes for a new order to be processed. Once the order is processed, it will show up in the list. Go to the Order History page and click the Refresh button. If it does not appear, please make certain you have submitted the order and seen the confirmation message. If the order is still not in the list, please contact your Customer Experience rep by emailing <a href='mailto:{defaultCSRMail}?subject={organization}'>{defaultCSRMail}</a>"
+  },
+  {
+    "TileOrder": 4,
+    "Active": true,
+    "Topic": "Dashboard",
+    "Question": "When I click on Shipment icon, I do not see the status of my order.",
+    "Answer": "Shipping status is available for orders that are being shipped by Tosca and the status is shipped. If your order has shipped and is not self-pickup and the status is not available, please contact your Customer Experience rep by emailing <a href='mailto:{defaultCSRMail}?subject={organization}'>{defaultCSRMail}</a>"
+  },
+  {
+    "TileOrder": 4,
+    "Active": true,
+    "Topic": "Dashboard",
+    "Question": "What are the various statuses on my order?",
+    "Answer": "<span class='tw-font-bold'>Unplanned </span>means your order is being reviewed and prepared. <br><span class='tw-font-bold'>Tendered </span>means your order is planned and being worked on to secure carrier. <br><span class='tw-font-bold'>Tender Accept </span>means your order is planned and carrier is assigned. <br><span class='tw-font-bold'>In-Transit </span>means your order is shipped and can be tracked. <br><span class='tw-font-bold'>Delivered </span>means your order is delivered.<br><span class='tw-font-bold'>Canceled </span>means your order is canceled and will not be shipped."
+  },
+  {
+    "TileOrder": 4,
+    "Active": true,
+    "Topic": "Dashboard",
+    "Question": "When I click on Transplace icon, I do not see the status of my order.",
+    "Answer": "Shipping status is available for orders that are being shipped by Tosca and the status is shipped. If your order has shipped and is not self-pickup and the status is not available, please contact your Customer Experience rep by emailing <a href='mailto:{defaultCSRMail}?subject={organization}'>{defaultCSRMail}</a>"
+  },
+  {
+    "TileOrder": 4,
+    "Active": true,
+    "Topic": "Dashboard",
+    "Question": "Why is the Transplace icon grey?",
+    "Answer": "Shipping status is only available for orders that are being shipped by Tosca and only once the order has been shipped."
+  },
+  {
+    "TileOrder": 5,
+    "Active": true,
+    "Topic": "Account Management",
+    "Question": "How can I update contact details?",
+    "Answer": "Please contact your Customer Experience rep by emailing <a href='mailto:{defaultCSRMail}?subject={organization}'>{defaultCSRMail}</a>"
+  },
+  {
+    "TileOrder": 5,
+    "Active": true,
+    "Topic": "Account Management",
+    "Question": "Can I add more than one contact on an account?",
+    "Answer": "That feature is not yet available. Please contact your Customer Experience rep by emailing <a href='mailto:{defaultCSRMail}?subject={organization}'>{defaultCSRMail}</a>"
+  },
+  {
+    "TileOrder": 5,
+    "Active": true,
+    "Topic": "Account Management",
+    "Question": "Can I update my current shipping location information on Tosca Hub?",
+    "Answer": "That feature is not yet available. Please contact your Customer Experience rep by emailing <a href='mailto:{defaultCSRMail}?subject={organization}'>{defaultCSRMail}</a>"
+  },
+  {
+    "TileOrder": 5,
+    "Active": true,
+    "Topic": "Account Management",
+    "Question": "Can I add more shipping locations on Tosca Hub?",
+    "Answer": "That feature is not yet available. Please contact your Customer Experience rep by emailing <a href='mailto:{defaultCSRMail}?subject={organization}'>{defaultCSRMail}</a>"
+  },
+  {
+    "TileOrder": 5,
+    "Active": true,
+    "Topic": "Account Management",
+    "Question": "Where can I update Transportation and Loading Instructions?",
+    "Answer": "To update transportation and loading instructions, contact <a href='mailto:{defaultCSRMail}?subject={organization}'>{defaultCSRMail}</a>"
+  },
+  {
+    "TileOrder": 6,
+    "Active": true,
+    "Topic": "Invoice Management",
+    "Question": "My outstanding invoice amount is different from the one on my records.",
+    "Answer": "Due to processing delays, the amounts may differ until updated in all systems. We recommend you wait 3 days. If the amounts are still not as expected, please contact your Customer Experience rep by emailing <a href='mailto:{defaultCSRMail}?subject={organization}'>{defaultCSRMail}</a>"
+  },
+  {
+    "TileOrder": 6,
+    "Active": true,
+    "Topic": "Invoice Management",
+    "Question": "How do I download my invoices?",
+    "Answer": "From the invoices page, there is an option to view and download invoices using Anytime Collect."
+  },
+  {
+    "TileOrder": 6,
+    "Active": true,
+    "Topic": "Invoice Management",
+    "Question": "I have more questions on my outstanding amount.",
+    "Answer": "Please contact your Customer Experience rep by emailing <a href='mailto:{defaultCSRMail}?subject={organization}'>{defaultCSRMail}</a>"
+  },
+  {
+    "TileOrder": 7,
+    "Active": true,
+    "Topic": "Reporting",
+    "Question": "How do I arrange to return RPCs to Tosca?",
+    "Answer": "Returning containers to Tosca is easy. Use the Reporting menu and select Returns to let us know where to pick them up, how many and whether they have been stored inside or outside. Once you submit the request, we’ll take care of the rest."
+  },
+  {
+    "TileOrder": 7,
+    "Active": true,
+    "Topic": "Reporting",
+    "Question": "How do I let Tosca know where my RPC inventory has been shipped?",
+    "Answer": " Reporting shipments is easy. Use the Reporting menu and select Transactions. Let us know where and when you sent the inventory, the quantity by size, and include the PO/BOL for each transaction."
+  },
+  {
+    "TileOrder": 7,
+    "Active": true,
+    "Topic": "Reporting",
+    "Question": "Where can I find a list of the approved shipping locations for Tosca?",
+    "Answer": "You can find a list of all approved retailers and other receivers on our internet site: <a target='_blank' href='https://www.toscaltd.com/about-tosca/shipping-returns'>https://www.toscaltd.com/about-tosca/shipping-returns</a>"
+  },
+  {
+    "TileOrder": 9,
+    "Active": true,
+    "Topic": "Thought Leadership",
+    "Question": "How can I make the most of my Tosca RPCs?",
+    "Answer": "Check out this article on the Tosca website <a target='_blank' href='https://www.toscaltd.com/reusable-containers-overview/why-switch-to-rpcs'>https://www.toscaltd.com/reusable-containers-overview/why-switch-to-rpcs</a>"
+  },
+  {
+    "TileOrder": 9,
+    "Active": true,
+    "Topic": "Thought Leadership",
+    "Question": "How can I grow my business using Tosca RPCs?",
+    "Answer": "Check out this article on the Tosca website <a target='_blank' href='https://www.toscaltd.com/reusable-containers-overview/why-switch-to-rpcs'>https://www.toscaltd.com/reusable-containers-overview/why-switch-to-rpcs</a>"
+  },
+  {
+    "TileOrder": 9,
+    "Active": true,
+    "Topic": "Thought Leadership",
+    "Question": "How can I reduce waste with Tosca RPCs?",
+    "Answer": "Check out this article on the Tosca website <a target='_blank' href='https://www.toscaltd.com/reusable-containers-overview/why-switch-to-rpcs'>https://www.toscaltd.com/reusable-containers-overview/why-switch-to-rpcs</a>"
+  },
+  {
+    "TileOrder": 1,
+    "Active": true,
+    "Topic": "How to…",
+    "Question": "Is there a training video for Produce Customers?",
+    "Answer": "Use this link to view a training video that walks through all the features for a Produce Customer.<br/><a target='_blank' href='{docUrl}/hub/media/Tosca%20HUB%20for%20Produce%20Customers.mp4'>Tosca Hub for Produce Customers</a>"
+  },
+  {
+    "TileOrder": 1,
+    "Active": true,
+    "Topic": "How to…",
+    "Question": "Are there training videos available on how to place an order?",
+    "Answer": "Using the Tosca Hub to place a new order from a blank form.<br/><a target='_blank' href='{docUrl}/hub/media/Tosca%20Hub%20-%20Place%20New%20Order.webm'>How to place a New Order</a>"
+  },
+  {
+    "TileOrder": 2,
+    "Active": true,
+    "Topic": "Order Management",
+    "Question": "Are there any training videos for Recreating an order from an existing order?",
+    "Answer": "Using the Tosca Hub reorder button, we can recreate an existing order.<br/><a target='_blank' href='{docUrl}/hub/media/Tosca%20Hub%20-%20How%20to%20Place%20a%20New%20Order%20Using%20Re-Order.mp4'>How to Place a New Order Using the Reorder Feature</a>"
+  },
+  {
+    "TileOrder": 2,
+    "Active": true,
+    "Topic": "Order Management",
+    "Question": "Are there training videos available on how to use order history?",
+    "Answer": "Features for reviewing your order history in the Tosca Hub release 3.<br/><a target='_blank' href='{docUrl}/hub/media/Tosca%20Hub%20-%20Order%20History.webm'>How to use Order History</a>"
+  },
+  {
+    "TileOrder": 3,
+    "Active": true,
+    "Topic": "Support",
+    "Question": "Are there training videos available on how to log in?",
+    "Answer": "How to login and logout of the Tosca Hub release 3.<br/><a target='_blank' href='{docUrl}/hub/media/Tosca%20Hub%20-%20How%20to%20Login%20and%20Logout.webm'>How to Login and Logout</a>"
+  },
+  {
+    "TileOrder": 1,
+    "Active": true,
+    "Topic": "How to…",
+    "Question": "Are there training videos available on how to use the Hub for Seafood Customers?",
+    "Answer": "This video walks through the Hub features and functions for a Seafood Customer.<br/><a target='_blank' href='{docUrl}/hub/media/Tosca%20HUB%20for%20Seafood%20Customers.mp4'>Tosca Hub for Seafood Customers</a>"
+  },
+  {
+    "TileOrder": 4,
+    "Active": true,
+    "Topic": "Dashboard",
+    "Question": "Are there training videos available on how to use the Transplace feature?",
+    "Answer": "Please review the link to the video file for Transplace.<br/> <a target='_blank' href='{docUrl}/hub/media/Tosca%20Hub%20-%20Transplace%20Integration.webm'>How to Track a Shipment Using Transplace</a>"
+  },
+  {
+    "TileOrder": 5,
+    "Active": true,
+    "Topic": "Account Management",
+    "Question": "Are there training videos available on how to manage your account?",
+    "Answer": "How to manage your account information, add users and change your password.<br/> <a target='_blank' href='{docUrl}/hub/media/Tosca%20Hub%20-%20Account%20Management.webm'>How to Use the Account Management Features</a>"
+  },
+  {
+    "TileOrder": 6,
+    "Active": true,
+    "Topic": "Invoice Management",
+    "Question": "Are there training videos available on how to manage your invoices?",
+    "Answer": "How to use the Invoice Management features in Tosca Hub release 3.<br/> <a target='_blank' href='{docUrl}/hub/media/Tosca%20Hub%20Invoices.webm'>How to use the Hub Invoices Feature</a>"
+  }
+]

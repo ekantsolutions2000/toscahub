@@ -1,0 +1,40 @@
+.dashboard-nav-tile,
+.dashboard-nav-tile img,
+.dashboard-nav-tile p {
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-nav-tile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: solid transparent 1px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  font-size: 20px;
+
+  width: 100%;
+  min-height: 88px;
+
+  margin: 8px;
+}
+
+.dashboard-nav-tile:hover {
+  cursor: pointer;
+  background-color: #f5f5f5;
+  border: outset 1px;
+}
+
+.dashboard-nav-tile:active {
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border: inset 1px;
+}
+
+.dashboard-nav-tile img {
+  width: 60px;
+  margin: 10px;
+}

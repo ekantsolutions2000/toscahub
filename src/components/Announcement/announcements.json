@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "title": "Hub 2.0",
+    "subtitle": "Test Title",
+    "body": "Body of the announcement",
+    "start": "15 May 2020",
+    "end": "17 Jun 2020",
+    "active": false,
+    "links": [
+      { "title": "FAQs about the updates", "url": "#" },
+      { "title": "How to submit an order", "url": "#" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Hub 3.0",
+    "subtitle": "We've made improvements!",
+    "body": "New features have been added to help you manage your accounts. Use the tools below to explore the updates.",
+    "start": "18 May 2020",
+    "end": "30 Jun 2020",
+    "active": false,
+    "links": [
+      { "title": "FAQs about the updates", "url": "/resources/faq" },
+      {
+        "title": "How to submit an order",
+        "url": "{docUrl}/hub/docs/How+to+Submit+an+Order.pdf"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Attention Users!",
+    "subtitle": "HUB limited availability",
+    "body": "Due to the upcoming ERP migration starting on Jan 20th 2022, HUB will have limited availability. Please place your orders before January 20th or after January 24th to avoid missed orders. Thank you for your continued support as a TOSCA partner and for your patience. In case of any questions please reach your customer support representative. Thank you!",
+    "start": "17 Jan 2022",
+    "end": "23 Jan 2022",
+    "active": false    
+  },
+  {
+    "id": 4,
+    "title": "Hello and Welcome to Tosca HUB!",
+    "subtitle": "Check out our 5 new features.",
+    "body": "<ol class='tw-space-y-4'><li>You can now place <span class='tw-text-tosca-orange'>Bulk orders</span> using our bulk order template under the Order module. Simply download the template and copy in the information and upload the file.</li><li>You can download the <span class='tw-text-tosca-orange'>Proof of Delivery</span> for your orders under the Invoice module. Click on the invoice for the order and use the download button option.</li><li>We now have <span class='tw-text-tosca-orange'>Cancel order</span> capability. You can cancel your order if it is in Unplanned status and the requested ship to date is greater than 7 days out</li><li style='font-weight: 400;'>Take a look at our new Navigation menu - You can now access the Ordering, Invoices and Reporting modules from the panel on the left. <a href='https://cms.toscaltd.com/hub/docs/Hub%20User%20Guide%20Release%205.0.pdf' target='_blank'>User guide</a></li><li style='font-weight: 400;'>Tosca HUB can now also be accessed on your smart devices. Login using the same URL- https://customerportal.toscaltd.com/ and your credentials.</li></ol><p>For more information please reach your Tosca representative or send your inquires at <a href='mailto:CustomerExperience@toscaltd.com'>Customer Experience</a></p>",
+    "start": "25 Aug 2022",
+    "end": "01 Mar 2023",
+    "active": true,
+    "users": ["OUTBOUND"] 
+  },
+  {
+    "id": 5,
+    "title": "Hello and Welcome to Tosca HUB!",
+    "subtitle": "Check out our 2 new features.",
+    "body": "<ol class='tw-space-y-4'><li>Take a look at our new Navigation menu - You can now create orders and view order history from the panel on the left. <a href='https://cms.toscaltd.com/hub/docs/Hub-User-Guide-Collection.pdf' target='_blank'>User guide</a></li><li>Tosca HUB can now also be accessed on your smart devices. Login using the same URL- https://customerportal.toscaltd.com/ and your credentials.</li></ol><p>For more information please reach your Tosca representative or send your inquires at <a href='mailto:CustomerExperience@toscaltd.com'>Customer Experience</a></p>",
+    "start": "25 Aug 2022",
+    "end": "01 Mar 2023",
+    "active": true,
+    "users": ["COLLECTION"] 
+  }
+]

@@ -1,0 +1,26 @@
+div.request-account-page .row button {
+  width: 20%;
+  min-width: 100px;
+  display: block;
+  float: right;
+  margin: 5px;
+}
+
+div.request-account-page .header {
+  width: 100vw;
+  position: relative;
+  left: 48.6%;
+  right: 50%;
+  margin: 0 -50vw 3.5vw -50vw;
+  -moz-box-shadow: 0 1px 1000px 50px rgba(150, 150, 150, 0.1);
+  -webkit-box-shadow: 0 1px 1000px 50px rgba(150, 150, 150, 0.1);
+  box-shadow: 0 1px 1000px 50px rgba(150, 150, 150, 0.1);
+}
+
+div.request-account-page .header img {
+  margin: 20px 0 20px 11%;
+}
+
+div.request-account-page h1 {
+  margin: 0 0 2vw 0;
+}

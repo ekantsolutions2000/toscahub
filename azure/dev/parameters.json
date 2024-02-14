@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageAccountName": {
+      "value": "stcusthubuidev"
+    },
+    "cdnProfileName": {
+      "value": "cdn-tosca-customer-portal-dev"
+    },
+    "cdnEndPointName": {
+      "value": "customerportaldev"
+    },
+    "cdnEndpointCustomDomain": {
+      "value": "customerportaldev.toscaltd.com"
+    },
+    "keyVaultName": {
+      "value": "kv-toscaapi-dev"
+    },
+    "certificateName": {
+      "value": "Tosca-WildCard-Cert"
+    },
+    "originName": {
+      "value": "customer-portal-origin-dev"
+    }
+  }
+}

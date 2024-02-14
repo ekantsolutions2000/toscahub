@@ -1,0 +1,33 @@
+.tippy-box[data-placement="top-end"] .tippy-arrow,
+.tippy-box[data-placement="bottom-end"] .tippy-arrow {
+  left: auto !important;
+  right: 10%;
+  transform: translate(0, 0) !important;
+}
+
+.tippy-box[data-theme~="error"] {
+  background-color: #e6173e;
+  color: white;
+}
+
+.tippy-box[data-theme~="error"][data-placement^="top"] > .tippy-arrow::before {
+  border-top-color: #e6173e;
+}
+
+.tippy-box[data-theme~="error"][data-placement^="bottom"]
+  > .tippy-arrow::before {
+  border-bottom-color: #e6173e;
+}
+
+.tippy-box[data-theme~="error"][data-placement^="left"] > .tippy-arrow::before {
+  border-left-color: #e6173e;
+}
+
+.tippy-box[data-theme~="error"][data-placement^="right"]
+  > .tippy-arrow::before {
+  border-right-color: #e6173e;
+}
+
+.tippy-box {
+  max-width: none !important;
+}

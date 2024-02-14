@@ -1,0 +1,14 @@
+.user-org-role th,
+td {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.user-org-role th {
+  border-bottom: 0.5px solid #cdcdcd;
+  font-weight: 500;
+}
+
+.th-org {
+  max-width: 175px !important;
+}

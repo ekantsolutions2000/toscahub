@@ -1,0 +1,44 @@
+#new-page-footer {
+  background-color: #e5e5e5;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+#new-link-row-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+}
+
+#new-page-footer .link-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#new-page-footer .link-row a {
+  padding: 0 10px;
+  margin: 5px 10px;
+  color: #9a9aaf;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+#new-page-footer .link-row a:hover {
+  text-decoration: underline;
+}
+
+#tosca-trademark {
+  padding: 0 10px;
+  margin: 5px 10px;
+  color: #9a9aaf;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
+}

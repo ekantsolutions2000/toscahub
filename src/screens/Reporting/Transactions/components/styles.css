@@ -1,0 +1,25 @@
+.reporting-item .form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1%;
+}
+
+.reporting-item .main-row {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 860px) {
+  .reporting-item {
+    display: flex;
+  }
+
+  .reporting-item input,
+  .reporting-item textarea {
+    font-size: 13px;
+  }
+}

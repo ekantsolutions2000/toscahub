@@ -1,0 +1,414 @@
+#trans-reporting-page {
+  font-size: 16px;
+}
+
+#trans-reporting-page .trans-reporting-page-header {
+  margin: 40px 0px 15px;
+  margin-top: 0;
+}
+
+#trans-reporting-page .trans-reporting-page-header h3 {
+  margin: 0;
+}
+
+#trans-reporting-page .row .header h4 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+#trans-reporting-page .trans-reporting-page-header p {
+  font-weight: 300;
+}
+
+#trans-reporting-page .glyphicon-plus-sign {
+  width: 10%;
+  font-size: 26px;
+  text-align: center;
+  height: 100%;
+  vertical-align: bottom;
+  padding-bottom: 8px;
+  color: green;
+}
+
+#trans-reporting-page .glyphicon-plus-sign:hover {
+  cursor: pointer;
+}
+
+#trans-reporting-page textarea {
+  resize: none;
+}
+
+/* Transaction Detail Hover Styles */
+#trans-reporting-page .rt-table .trans-detail-hover {
+  display: none;
+}
+
+#trans-reporting-page .rt-table .trans-detail-hover .glyphicon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  color: white;
+  background: maroon;
+  font-size: 2em;
+  box-shadow: 10px 0 8px #888888;
+  cursor: pointer;
+}
+
+#trans-reporting-page .rt-table .rt-body,
+#trans-reporting-page .rt-table .trans-table-create-date {
+  overflow: visible;
+}
+
+#trans-reporting-page
+  .rt-table
+  .trans-table-create-date:hover
+  .trans-detail-hover {
+  display: block;
+  position: absolute;
+  /*top: 5px;
+  left: 90px;
+  min-width: 400px;
+  min-height: 400px;*/
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  color: black;
+  /*Animation*/
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  animation-name: showcase;
+  -webkit-animation-name: showcase;
+  animation-duration: 0.1s;
+  -webkit-animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  /*transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);*/
+}
+@-webkit-keyframes showcase {
+  0% {
+    width: 1%;
+    height: 100%;
+    overflow: hidden;
+  }
+  /*50%{
+    width:25%;
+    height:100%;
+     overflow:hidden;
+  }*/
+  100% {
+    height: 100%;
+    width: 50%;
+    overflow: auto;
+  }
+}
+/* End Transaction Detail Hover Styles */
+
+/* Flex Styles */
+#trans-reporting-page .form-group {
+  margin: 0;
+}
+
+#trans-reporting-page .shipping-info-bottom-row {
+  margin-right: 20px;
+}
+
+#trans-reporting-page .shipping-info-bottom-row2 {
+  min-width: 250px;
+}
+
+#trans-reporting-page .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  width: 100%;
+  background-color: white;
+  padding: 32px 16px;
+  margin: 32px 0;
+}
+
+#trans-reporting-page .row .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  width: 100%;
+}
+
+#trans-reporting-page .content-row,
+#trans-reporting-page .content-row2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+
+#trans-reporting-page .content-row.add-shipto {
+  padding: 0 30px 35px;
+}
+
+#trans-reporting-page .content-row.add-shipto .info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 15px;
+}
+
+#trans-reporting-page .content-row.add-shipto .info-row > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  width: 275px;
+}
+
+#trans-reporting-page .content-row.add-shipto .info-row label {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+#trans-reporting-page .content-row.add-shipto input.form-control {
+  height: 38px;
+}
+
+#trans-reporting-page .content-row.add-shipto #StateZip > div {
+  width: 45%;
+}
+
+/* #trans-reporting-page .content-row.add-shipto input {
+  max-height: 34px;
+  min-height: 34px;
+  height: 34px;
+  width: 275px;
+}
+
+#trans-reporting-page .content-row.add-shipto .css-vj8t7z {
+  max-height: 34px;
+  min-height: 34px;
+  height: 34px;
+  margin-bottom: 10px;
+  width: 275px;
+}
+
+#trans-reporting-page .content-row.add-shipto .info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+
+  width: 100%;
+}
+
+#trans-reporting-page .content-row.add-shipto #StateZip .css-vj8t7z,
+#trans-reporting-page .content-row.add-shipto #StateZip input {
+  width: 130px;
+} */
+
+/* #trans-reporting-page .content-row.add-shipto .info-row > div {
+  width: 500px;
+} */
+
+#trans-reporting-page .content-row2 #ship-from-container,
+#trans-reporting-page .content-row2 #shipto-form-group {
+  flex: 0.3;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+#trans-reporting-page .content-row textarea,
+#trans-reporting-page .content-row2 textarea {
+  border: none;
+  background-color: transparent;
+  box-shadow: unset;
+}
+
+#trans-reporting-page #shipto-form-group {
+  position: relative;
+}
+
+#trans-reporting-page #shipto-form-group .glyphicon {
+  position: absolute;
+  top: 25px;
+  right: -20px;
+  color: #ec710a;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+#trans-reporting-page #shipto-form-group .glyphicon:hover {
+  cursor: pointer;
+}
+
+#trans-reporting-page label {
+  /* width: 293px;
+  height: 12px; */
+  font-family: MuseoSansRounded;
+  font-size: 13px;
+  font-weight: 300;
+  /* font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  color: var(--text-light); */
+  text-transform: uppercase;
+}
+
+#trans-reporting-page button[type="button"].btn,
+#trans-reporting-page button[type="submit"].btn {
+  width: 246px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: #7ed4f7;
+  background-image: unset;
+}
+
+#trans-reporting-page button[type="button"].btn {
+  width: 98%;
+  margin: 0;
+}
+
+#trans-reporting-page .form-group input[type="text"],
+#trans-reporting-page .form-group textarea,
+#trans-reporting-page .form-group input[type="number"] {
+  background-color: transparent;
+}
+
+.report-content {
+  display: grid;
+  overflow-x: scroll;
+  overflow-y: visible;
+  width: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+  #trans-reporting-page .content-row2 {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #trans-reporting-page .content-row2 #ship-from-container,
+  #trans-reporting-page .content-row2 #shipto-form-group {
+    width: 50%;
+  }
+
+  #trans-reporting-page #shipToAddy {
+    margin-bottom: 10px;
+  }
+
+  #trans-reporting-page .shipping-info-bottom-row {
+    flex: 1;
+  }
+
+  #trans-reporting-page .shipping-info-bottom-row2 {
+    min-width: unset;
+  }
+
+  #trans-reporting-page .content-row.add-shipto {
+    padding: 0 20px 35px;
+  }
+
+  #trans-reporting-page .address-col,
+  #trans-reporting-page .country-col {
+    margin-left: 20px;
+  }
+
+  #trans-reporting-page .trans-reporting-page-header h3 {
+    font-size: 32px;
+  }
+
+  #trans-reporting-page .btn-row {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #trans-reporting-page .content-row {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  #trans-reporting-page .content-row2 #ship-from-container {
+    width: 100%;
+  }
+
+  #trans-reporting-page .content-row2 #shipto-form-group {
+    width: 90%;
+  }
+
+  #trans-reporting-page #shipToAddy {
+    margin-bottom: 10px;
+  }
+
+  #trans-reporting-page .shipping-info-bottom-row {
+    width: 100%;
+    margin: unset;
+    margin-bottom: 20px;
+  }
+
+  #trans-reporting-page .shipping-info-bottom-row2 {
+    min-width: unset;
+  }
+
+  #trans-reporting-page .content-row.add-shipto {
+    padding: 0 20px 35px;
+  }
+
+  #trans-reporting-page .address-col,
+  #trans-reporting-page .country-col {
+    margin-left: 20px;
+  }
+
+  #trans-reporting-page .content-row2 #ship-from-container,
+  #trans-reporting-page .content-row2 #shipto-form-group {
+    padding: 0;
+  }
+
+  #trans-reporting-page #shipto-form-group .glyphicon {
+    top: 30px;
+    right: -32px;
+  }
+
+  #trans-reporting-page .content-row.add-shipto .info-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #trans-reporting-page .address-col,
+  #trans-reporting-page .country-col {
+    margin-left: 0;
+  }
+
+  #trans-reporting-page button[type="button"].btn {
+    width: 100%;
+    margin: 0;
+  }
+
+  #trans-reporting-page button[type="submit"].btn {
+    width: 44%;
+  }
+
+  #trans-reporting-page .content-row.add-shipto .info-row > div {
+    width: 100%;
+  }
+
+  #trans-reporting-page .trans-reporting-page-header h3 {
+    font-size: 24px;
+  }
+}
